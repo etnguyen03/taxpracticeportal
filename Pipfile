@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+
+[dev-packages]
+autopep8 = "*"
+black = "*"
+coverage = "*"
+django-stubs = "*"
+flake8 = "*"
+isort = "*"
+mpy = "*"
+pylint = "*"
+pylint-django = "*"
+typed-ast = "*"
+
+[requires]
+python_version = "3.10"
+python_full_version = "3.10.9"

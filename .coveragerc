@@ -1,0 +1,13 @@
+[run]
+branch = True
+source = taxpracticeportal
+omit =
+    */migrations/*
+    */apps.py
+    */urls.py
+    */wsgi.py
+    */asgi.py
+    */routing.py
+
+# Needed for the Coveralls reporter
+relative_files = True
